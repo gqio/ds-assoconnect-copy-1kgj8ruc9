@@ -1,0 +1,36 @@
+// This is a backward compat scss file to expose existing variable usage
+@import "~/colors/dist/variables.scss";
+@import "~/typography/dist/variables.scss";
+
+// Colors: main
+$black: $color-base-black;
+$blue: $color-base-blue-default;
+$dark-blue: $color-base-blue-darker;
+$dark-green: $color-base-green-dark;
+$dark-grey: $color-base-grey-dark;
+$dark-red: $color-base-red-dark;
+$dark-yellow: $color-base-yellow-dark;
+$green: $color-base-green-default;
+$grey: $color-base-grey-default;
+$light-grey: $color-base-grey-light;
+$red: $color-base-red-default;
+$white: $color-base-white;
+$yellow: $color-base-yellow-default;
+
+// Colors: secondary
+$cosmopolitan: $color-base-cosmopolitan;
+$florida: $color-base-florida;
+
+// Colors: other
+$background-color: $color-background;
+$menu-color-alt: $color-base-blue-dark;
+$menu-color-alt-group: $color-base-green-darker;
+$menu-color-alt-group-hover: $color-base-green-darkest;
+$menu-color-alt-hover: $color-base-blue-lightest;
+$reactstrap-focus: $color-base-blue-lighter;
+$video-placeholder: $color-base-blue-light;
+$video-title: $color-base-blue-darkest;
+
+// Fonts
+$font-primary: $font-family-primary;
+$font-secondary: $font-family-secondary;
