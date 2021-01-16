@@ -6,7 +6,7 @@
 
 ```js script
 import { html } from "lit-html";
-import colors from "./dist/tokens-definitions.js";
+import colors from "../dist/tokens-definitions.js";
 import { PaletteSwatch, ColorSwatch } from "@divriots/base-swatch";
 customElements.define("color-swatch", ColorSwatch);
 customElements.define("color-palette", PaletteSwatch);

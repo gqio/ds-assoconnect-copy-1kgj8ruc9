@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./index";
 
-import { withThemeProvider } from "~/utils/dist/Story";
+import { withThemeProvider } from "~/utils/src/Story";
 
 export default {
   parameters: {

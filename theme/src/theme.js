@@ -1,17 +1,17 @@
-import { colors } from "~/colors/dist/tokens";
-import { radii } from "~/radii/dist/tokens";
-import { opacities } from "~/opacities/dist/tokens";
-import { shadows } from "~/shadows/dist/tokens";
-import { space } from "~/space/dist/tokens";
+import { colors } from "~/colors/src/tokens";
+import { radii } from "~/radii/src/tokens";
+import { opacities } from "~/opacities/src/tokens";
+import { shadows } from "~/shadows/src/tokens";
+import { space } from "~/space/src/tokens";
 import {
   fonts,
   fontSizes,
   fontWeights,
   letterSpacings,
   lineHeights,
-} from "~/typography/dist/tokens";
-import { zIndices } from "~/z-indices/dist/tokens";
-import { breakpoints, gutter } from "~/grid/dist/tokens.js";
+} from "~/typography/src/tokens";
+import { zIndices } from "~/z-indices/src/tokens";
+import { breakpoints, gutter } from "~/grid/src/tokens.js";
 
 export const theme = {
   breakpoints,

@@ -6,7 +6,7 @@
 
 ```js script
 import { html } from "lit-element";
-import tokens from "./dist/tokens-definitions.js";
+import tokens from "../dist/tokens-definitions.js";
 import { ZIndexSwatch } from "@divriots/base-swatch";
 customElements.define("z-index-swatch", ZIndexSwatch);
 ```

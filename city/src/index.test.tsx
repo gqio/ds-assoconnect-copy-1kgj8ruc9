@@ -1,11 +1,11 @@
 import { Form, Formik } from "formik";
-import { mockApi, mountWithTheme } from "~/utils/dist/Test";
+import { mockApi, mountWithTheme } from "~/utils/src/Test";
 
 import City from "./index";
 import { Provider } from "react-redux";
 import React from "react";
 import { act } from "react-dom/test-utils";
-import store from "~/state/dist/store";
+import store from "~/state/src/store";
 import wait from "waait";
 
 import chai from "chai/chai.js";

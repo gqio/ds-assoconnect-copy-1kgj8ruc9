@@ -2,9 +2,9 @@ import React from "react";
 import City from "./index";
 import { Form, Formik } from "formik";
 
-import { withThemeProvider } from "~/utils/dist/Story";
+import { withThemeProvider } from "~/utils/src/Story";
 import { Provider } from "react-redux";
-import store from "~/state/dist/store";
+import store from "~/state/src/store";
 
 export default {
   parameters: {

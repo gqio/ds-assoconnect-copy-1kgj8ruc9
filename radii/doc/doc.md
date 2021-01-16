@@ -6,7 +6,7 @@
 
 ```js script
 import { html } from "lit-element";
-import radii from "./dist/tokens-definitions.js";
+import radii from "../dist/tokens-definitions.js";
 import { RadiiSwatch } from "@divriots/base-swatch";
 customElements.define("radii-swatch", RadiiSwatch);
 ```

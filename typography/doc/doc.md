@@ -6,7 +6,7 @@
 
 ```js script
 import { html } from "lit-element";
-import typography from "./dist/tokens-definitions.js";
+import typography from "../dist/tokens-definitions.js";
 import {
   FontFamilySwatch,
   FontSizeSwatch,

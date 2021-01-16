@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "formik": "latest",
+    "react": "latest"
+  }
+}
